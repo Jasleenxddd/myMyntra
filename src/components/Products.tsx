@@ -18,11 +18,11 @@ const AllProducts = ({ productData }: { productData: ProductProps[] }) => {
             {productData.map((item: ProductProps, index) => ( // Map over fetched data
                 <div key={index}> {/* Add a key for each item */}
                     <img src={item.image} className="card-img-top" alt="..." />
-                    <div className="card-body">
+                    {/* <div className="card-body">
                         <h5 className="card-title">{item.id}  </h5>
                         <h5 className="card-title">{item.title}  </h5>
                         <p className="card-text">{item.description}</p>
-                    </div>
+                    </div> */}
                 </div>
             ))}
         </div>
