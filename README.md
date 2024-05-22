@@ -30,6 +30,19 @@ This project is a clone of the popular e-commerce website Myntra. It replicates 
 To get a local copy of the project up and running, follow these steps:
 
 1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/your-username/myntra-clone.git
+   git clone https://github.com/Jasleenxddd/myMyntra.git
 
+2. **Install dependencies**
+   npm install
+
+3. **Start the server**
+   npm start   
+
+##Contributing
+  Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+1. Fork the Project
+2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
+3. Commit your Changes (git commit -m 'Add some AmazingFeature')
+4. Push to the Branch (git push origin feature/AmazingFeature)
+5. Open a Pull Request
