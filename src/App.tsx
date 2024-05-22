@@ -7,7 +7,7 @@ import { Routes, Route } from 'react-router-dom';
 import Details from './components/Details';
 import Wishlist from './components/Wishlist';
 import productData from './sampleOutput.json'; // Adjust the import statement for productData
-import Products from './components/Products';
+import Products from './components/AllProducts';
 
 // Define the ProductProps interface
 interface ProductProps {

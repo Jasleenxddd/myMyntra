@@ -66,7 +66,7 @@ const Home = () => {
       </div>
      </div>
      </Link>
-     <Link to="/products" state={{category:"Miscellaneous",product:product}}><div style={{backgroundImage:`url(${others})`,backgroundRepeat:"no-repeat",backgroundSize:"300px 300px"}}
+     <Link to="/products" state={{category:"Others",product:product}}><div style={{backgroundImage:`url(${others})`,backgroundRepeat:"no-repeat",backgroundSize:"300px 300px"}}
      className='h-72 w-64 p-2 pt-48'>
       <div className='bg-pink-700 text-orange-100 flex flex-col items-center justify-center'>
         <h1 className='text-lg'>Others</h1>
