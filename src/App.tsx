@@ -7,7 +7,7 @@ import { Routes, Route } from 'react-router-dom';
 import Details from './components/Details';
 import Wishlist from './components/Wishlist';
 import productData from './sampleOutput.json'; // Adjust the import statement for productData
-import Products from './components/AllProducts';
+import AllProducts from './components/AllProducts';
 
 // Define the ProductProps interface
 interface ProductProps {
@@ -40,7 +40,7 @@ const App = () => {
             <Routes>
                 <Route path='/' element={<Main />} />
                 <Route path='/login' element={<Login />} />
-                <Route path='/products' element={<Products productData={parsedProductData} />} /> 
+                <Route path='/products' element={<AllProducts productData={parsedProductData} />} /> 
                 <Route path='/details' element={<Details />} />
                 <Route path='/wishlist' element={<Wishlist />} />
             </Routes>
