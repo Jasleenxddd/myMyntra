@@ -27,7 +27,7 @@ const Details = () => {
     <ToastContainer autoClose={3000}/>
     <Navbar/>
 
-    <div className='grid grid-cols-2 p-4'>
+    <div className='grid grid-cols-2 p-4 fixed'>
         <div className='grid grid-rows-2 '>
           <img src={location.state.item.image} className='p-1' />
           
